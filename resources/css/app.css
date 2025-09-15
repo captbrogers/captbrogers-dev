@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.topnav {
+    @apply rounded-xl px-12 flex items-center justify-center;
+    background: linear-gradient(to bottom, hsl(191, 12%, 72%) 0%, hsl(160, 4%, 45%) 50%, hsl(120, 17%, 5%) 51%, hsl(330, 11%, 4%) 100%);
+    min-height: 45px;
+}
+
+.topnav a {
+    @apply flex items-center h-full px-4 mx-2 text-zinc-300 font-bold;
+    min-height: 45px;
+}
+
+.topnav a:hover {
+    background: white;
+    color: black;
+    text-shadow: 0 0 8px rgba(128, 255, 190, 0.8);
+}
+
+.mainarea {
+    @apply mt-8 p-6 bg-white rounded-lg shadow;
+}
+
+.about-conatiner, .services-container {
+    @apply space-y-4 text-xl;
+}
