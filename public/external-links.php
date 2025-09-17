@@ -37,7 +37,6 @@
         </div>
         Daily.dev
     </a>
-    
-    <p>There aren't any social media because I don't use them. There are leftover accounts from years ago but nothing has been posted in move than 5 years.</p>
 </div>
+<p class="mt-8 text-center">There aren't any social media because I don't use them. There are leftover accounts from years ago but nothing has been posted in move than 5 years.</p>
 <?php include('../resources/templates/footer.php'); ?>

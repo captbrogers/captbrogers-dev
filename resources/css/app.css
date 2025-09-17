@@ -24,3 +24,11 @@
 .about-conatiner, .services-container {
     @apply space-y-4 text-xl;
 }
+
+.links-container {
+    @apply grid grid-flow-col grid-cols-3;
+}
+
+.links-container a {
+    @apply flex flex-col items-center justify-center;
+}
