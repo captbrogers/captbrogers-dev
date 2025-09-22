@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Lato";
+    src: url('/fonts/Lato/Lato-Regular.woff2') format("woff2");
+    font-weight: 400; /* thin/100, extralight/200, light/300, normal/400, medium/500, semibold/600, bold/700, extrabold/800, black/900 */
+    font-style: normal; /* normal, italic, oblique, oblique 10deg */
+    font-display: swap; /* swap, fallback */
+}
+
+body {
+    font-family: Lato, Helvetica, Arial;
+}
+
 .topnav {
     @apply rounded-xl px-12 flex items-center justify-center;
     background: linear-gradient(to bottom, hsl(191, 12%, 72%) 0%, hsl(160, 4%, 45%) 50%, hsl(120, 17%, 5%) 51%, hsl(330, 11%, 4%) 100%);

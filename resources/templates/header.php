@@ -29,11 +29,9 @@
 
         <!-- Favicon -->
         <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="16x16" type="image/icon">
-        <link href="<?php echo $domain; ?>/favicon.svg" rel="icon" type="image/svg+xml">
-        <link href="<?php echo $domain; ?>/favicon.png" rel="icon" sizes="192x192">
 
         <!-- Font preloads (should be done for each font file) -->
-        <link href="<?php echo $domain; ?>/fonts/fontfam/font.woff2" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
+        <!-- License for Lato can be found: <?php echo $domain; ?>/fonts/Lato/OFL.txt -->
 
         <!-- CSS -->
         <link href="<?php echo $domain; ?>/css/app.css" rel="stylesheet" media="screen">
