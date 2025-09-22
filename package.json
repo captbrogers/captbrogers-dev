@@ -1,7 +1,9 @@
 {
   "scripts": {
     "build": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css",
-    "dev": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css --watch",
+    "build-va": "npx @tailwindcss/cli -i ./resources/css/va.css -o ./public/css/va.css",
+    "dev-va": "npx @tailwindcss/cli -i ./resources/css/va.css -o ./public/css/va.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.13",

@@ -1,0 +1,46 @@
+<?php $domain = "https://captbrogers.test"; ?><!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Set the base URL for all relative URLs within the document -->
+        <base href="<?php echo $domain; ?>/">
+
+        <meta name="robots" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="x-dns-prefetch-control" content="off">
+
+        <meta name="google" content="notranslate">
+        <meta name="google" content="nositelinkssearchbox">
+
+        <meta name="rating" content="General">
+
+        <meta name="url" content="<?php echo $domain; ?>/">
+        <meta name="subject" content="Brian Rogers - Voice Actor">
+        <meta name="description" content="Learn more about Brian Rogers">
+
+        <title>Brian Rogers - Voice Actor</title>
+
+        <!-- analytics -->
+        <!-- -->
+
+        <!-- Favicon -->
+        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="16x16" type="image/icon">
+
+        <!-- Font preloads (should be done for each font file) -->
+
+        <!-- CSS -->
+        <link href="<?php echo $domain; ?>/css/va.css" rel="stylesheet" media="screen">
+
+        <!-- JS that must be executed before the document is loaded -->
+
+    </head>
+    <body class="font-sans antialiased">
+        <div id="app" class="min-h-screen bg-stone-400">
+            I'm an aspiring voice actor
+        </div>
+    </body>
+</html>
