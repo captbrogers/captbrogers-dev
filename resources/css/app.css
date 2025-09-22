@@ -30,7 +30,7 @@ body {
 }
 
 .mainarea {
-    @apply mt-8 p-6 bg-white rounded-lg shadow;
+    @apply mt-8 p-6 bg-white rounded-lg shadow-lg;
 }
 
 .about-conatiner, .services-container {
