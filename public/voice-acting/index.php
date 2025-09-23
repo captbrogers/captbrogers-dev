@@ -1,4 +1,4 @@
-<?php $domain = "https://captbrogers.test"; ?><!DOCTYPE html>
+<?php $domain = "https://captbrogers.dev"; ?><!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
