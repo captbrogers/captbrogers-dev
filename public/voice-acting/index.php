@@ -1,4 +1,4 @@
-<?php $domain = "https://captbrogers.test"; ?><!DOCTYPE html>
+<?php $domain = "https://captbrogers.dev"; ?><!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
@@ -28,7 +28,8 @@
         <!-- -->
 
         <!-- Favicon -->
-        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="16x16" type="image/icon">
+        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="64x64" type="image/icon">
+        <link href="<?php echo $domain; ?>/favicon.png" rel="icon" sizes="128x128">
 
         <!-- Font preloads (should be done for each font file) -->
 
@@ -40,7 +41,21 @@
     </head>
     <body class="font-sans antialiased">
         <div id="app" class="min-h-screen bg-stone-400">
-            I'm an aspiring voice actor
+            <div class="max-w-7xl mx-auto pt-24">
+                <p>You can reach me at captbrogers@protonmail.ch</p>
+
+                <div class="grid grid-flow-row gap-8">
+                    <div class="voice-sample-container">
+                        <div class="controls">
+                            <div class="play-button"></div>
+                            <div class="pause-button"></div>
+                        </div>
+                        <div class="info-container">
+                            <
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

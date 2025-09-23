@@ -28,7 +28,8 @@
         <!-- -->
 
         <!-- Favicon -->
-        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="16x16" type="image/icon">
+        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="64x64" type="image/icon">
+        <link href="<?php echo $domain; ?>/favicon.png" rel="icon" sizes="128x128">
 
         <!-- Font preloads (should be done for each font file) -->
         <!-- License for Lato can be found: <?php echo $domain; ?>/fonts/Lato/OFL.txt -->
