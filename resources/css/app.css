@@ -12,6 +12,14 @@ body {
     font-family: Lato, Helvetica, Arial;
 }
 
+.text-link {
+    @apply text-cyan-800 transition;
+}
+
+.text-link:hover {
+    @apply underline;
+}
+
 .topnav {
     @apply rounded-xl px-12 flex items-center justify-center;
     background: linear-gradient(to bottom, hsl(191, 12%, 72%) 0%, hsl(160, 4%, 45%) 50%, hsl(120, 17%, 5%) 51%, hsl(330, 11%, 4%) 100%);

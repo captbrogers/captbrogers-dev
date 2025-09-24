@@ -47,6 +47,5 @@
                     <a href="/">HOME</a>
                     <a href="/services.php">SERVICES</a>
                     <a href="/external-links.php">EXTERNAL LINKS</a>
-                    <a href="/voice-acting">VOICE ACTING</a>
                 </nav>
                 <main class="mainarea">
