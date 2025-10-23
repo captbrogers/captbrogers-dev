@@ -1,12 +1,14 @@
 {
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css",
+    "build": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css; npx minify --css ./public/css/app.css > ./public/css/app.css",
     "dev": "npx @tailwindcss/cli -i ./resources/css/app.css -o ./public/css/app.css --watch",
-    "build-va": "npx @tailwindcss/cli -i ./resources/css/va.css -o ./public/css/va.css",
+    "build-va": "npx @tailwindcss/cli -i ./resources/css/va.css -o ./public/css/va.css; npx minify --js ./resources/js/app.js > ./public/js/app.js",
     "dev-va": "npx @tailwindcss/cli -i ./resources/css/va.css -o ./public/css/va.css --watch"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@tailwindcss/cli": "^4.1.13",
+    "minify": "^14.1.0",
     "tailwindcss": "^4.1.13"
   }
 }

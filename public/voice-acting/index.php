@@ -40,6 +40,8 @@ include dirname(__DIR__) . '/../env.php';
 
         <!-- JS that must be executed before the document is loaded -->
 
+        <!-- JS -->
+        <script src="<?php echo DOMAIN; ?>/js/va.js" defer></script>
     </head>
     <body class="font-sans antialiased">
         <div id="app" class="min-h-screen bg-stone-400">
@@ -49,30 +51,59 @@ include dirname(__DIR__) . '/../env.php';
                 </div>
                 <div class="grid grid-flow-row gap-8 mt-8">
                     <div class="voice-sample-container">
-                        <div class="controls">
-                            <div class="play-button">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-play-icon lucide-circle-play"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg>
-                            </div>
-                            <div class="pause-button">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-octagon-pause-icon lucide-octagon-pause"><path d="M10 15V9"/><path d="M14 15V9"/><path d="M2.586 16.726A2 2 0 0 1 2 15.312V8.688a2 2 0 0 1 .586-1.414l4.688-4.688A2 2 0 0 1 8.688 2h6.624a2 2 0 0 1 1.414.586l4.688 4.688A2 2 0 0 1 22 8.688v6.624a2 2 0 0 1-.586 1.414l-4.688 4.688a2 2 0 0 1-1.414.586H8.688a2 2 0 0 1-1.414-.586z"/></svg>
-                            </div>
-                        </div>
                         <div class="info-container">
-                            <p class="font-bold text-xl">Example Snippet</p>
-                            <p>From the book: Super Amazing Adventures of Pudding</p>
+                            <p class="font-bold text-xl">Lyle The Automaton</p>
+                            <p>From the book: "Jed and the Junkyard War" by Steven Bohls. Lyle is an automaton that is wearing the skin of Jed's dead grandfather in an attempt to calm a resisting Jed before revealing a dark truth.</p>
                             <div class="flex items-center space-x-8">
                                 <div class="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-icon lucide-clock"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
-                                    <div>0:00</div>
-                                </div>
-                                <div class="flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round-icon lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0"/><circle cx="12" cy="10" r="4"/><circle cx="12" cy="12" r="10"/></svg>
-                                    <div>Male</div>
+                                    <div>Intimidating Adult Male, General American Accent</div>
                                 </div>
                                 <div class="flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text-icon lucide-book-open-text"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg>
                                     <div>Fantasy, Sci-Fi</div>
                                 </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <audio controls src="<?php echo DOMAIN; ?>/audio/demo_reel_lyle_-_by_brian_rogers.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voice-sample-container">
+                        <div class="info-container">
+                            <p class="font-bold text-xl">Devil-May-Care, Excerpt 1</p>
+                            <p>From the book: "A Harvest Of World Folk Tales" published 1958. Devil-may-care is a French soldier walking home from after a war. While traveling, he asks the lord of a castle for rest for the night. The lord of the castle is willing to shelter and feed him if he can banish evil apparitions that appear each night.</p>
+                            <div class="flex items-center space-x-8">
+                                <div class="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round-icon lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0"/><circle cx="12" cy="10" r="4"/><circle cx="12" cy="12" r="10"/></svg>
+                                    <div>Smooth Adult Male, General American Accent</div>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text-icon lucide-book-open-text"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg>
+                                    <div>Folk Tales, Literature & Fiction</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <audio controls src="<?php echo DOMAIN; ?>/audio/devil-may-care_demo_reel_1.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voice-sample-container">
+                        <div class="info-container">
+                            <p class="font-bold text-xl">Devil-May-Care, Excerpt 2</p>
+                            <p>From the book: "A Harvest Of World Folk Tales" published 1958. Devil-may-care is a French soldier walking home from after a war. While traveling, he stays in a haunted room and contends with little devils.</p>
+                            <div class="flex items-center space-x-8">
+                                <div class="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user-round-icon lucide-circle-user-round"><path d="M18 20a6 6 0 0 0-12 0"/><circle cx="12" cy="10" r="4"/><circle cx="12" cy="12" r="10"/></svg>
+                                    <div>Nasal Adult Male, General American Accent</div>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open-text-icon lucide-book-open-text"><path d="M12 7v14"/><path d="M16 12h2"/><path d="M16 8h2"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/><path d="M6 12h2"/><path d="M6 8h2"/></svg>
+                                    <div>Folk Tales, Literature & Fiction</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <audio controls src="<?php echo DOMAIN; ?>/audio/devil-may-care_demo_reel_2.mp3"></audio>
                             </div>
                         </div>
                     </div>

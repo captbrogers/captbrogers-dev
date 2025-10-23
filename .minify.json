@@ -1,0 +1,19 @@
+{
+    "js": {
+        "type": "putout",
+        "putout": {
+            "quote": "'",
+            "mangle": true,
+            "mangleClassNames": true,
+            "removeUnusedVariables": true,
+            "removeConsole": false,
+            "removeUselessSpread": true
+        }
+    },
+    "css": {
+        "type": "clean-css",
+        "clean-css": {
+            "compatibility": "*"
+        }
+    }
+}
