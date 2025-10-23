@@ -1,11 +1,13 @@
-<?php $domain = "https://captbrogers.dev"; ?><!DOCTYPE html>
+<?php
+include dirname(__DIR__) . '/../env.php';
+?><!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Set the base URL for all relative URLs within the document -->
-        <base href="<?php echo $domain; ?>/">
+        <base href="<?php echo DOMAIN; ?>/">
 
         <meta name="robots" content="index,follow">
         <meta name="googlebot" content="index,follow">
@@ -18,7 +20,7 @@
 
         <meta name="rating" content="General">
 
-        <meta name="url" content="<?php echo $domain; ?>/">
+        <meta name="url" content="<?php echo DOMAIN; ?>/">
         <meta name="subject" content="Brian Rogers - Voice Actor">
         <meta name="description" content="Learn more about Brian Rogers">
 
@@ -28,13 +30,13 @@
         <!-- -->
 
         <!-- Favicon -->
-        <link href="<?php echo $domain; ?>/favicon.ico" rel="icon" sizes="64x64" type="image/icon">
-        <link href="<?php echo $domain; ?>/favicon.png" rel="icon" sizes="128x128">
+        <link href="<?php echo DOMAIN; ?>/favicon.ico" rel="icon" sizes="64x64" type="image/icon">
+        <link href="<?php echo DOMAIN; ?>/favicon.png" rel="icon" sizes="128x128">
 
         <!-- Font preloads (should be done for each font file) -->
 
         <!-- CSS -->
-        <link href="<?php echo $domain; ?>/css/va.css" rel="stylesheet" media="screen">
+        <link href="<?php echo DOMAIN; ?>/css/va.css" rel="stylesheet" media="screen">
 
         <!-- JS that must be executed before the document is loaded -->
 

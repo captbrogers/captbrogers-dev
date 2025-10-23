@@ -8,7 +8,7 @@
                             <p>For the last decade I have worked with WordPress and Laravel extensively and moved on from jQuery to using VueJS. I've been using Linux to self-host many things and also use it as my desktop and laptop OS of choice.</p>
                             <p>I'm available for all kinds of work right now, so feel free to reach out to me.</p>
                             <p>You can find links to my GitHub profile and other places on the External Links tab.</p>
-                            <p>You can find my résumé <a class="text-link" href="<?php echo $domain; ?>/Brian Rogers Résumé.pdf" title="Brian Rogers' Résumé">here</a>.</p>
+                            <p>You can find my résumé <a class="text-link" href="<?php echo DOMAIN; ?>/Brian Rogers Résumé.pdf" title="Brian Rogers' Résumé">here</a>.</p>
                         </div>
                     </div>
 <?php include('../resources/templates/footer.php'); ?>
